@@ -26,16 +26,16 @@ btn3.addEventListener("mouseover", hover3)
 btn3.addEventListener("mouseleave", leave)
 
 btn1.onclick = function(){
-    window.location.href = "mechanics/survival.html"
+    window.location.href = "/mechanics/survival.html"
 }
 btn2.onclick = function(){
-    window.location.href = "mechanics/interaction.html"
+    window.location.href = "/mechanics/interaction.html"
 }
 btn3.onclick = function(){
-    window.location.href = "mechanics/world.html"
+    window.location.href = "/mechanics/world.html"
 }
 backbtn.onclick = function(){
-    window.location.href = "menu.html"
+    window.location.href = "/menu.html"
 }
 
 
