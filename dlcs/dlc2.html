@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background: url(../images/characters.png), url(../images/characters_1.png) no-repeat center center fixed; 
+<html lang="en" style="background: url(../images/dlc2.png), url(../images/dlc2.png) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -8,12 +8,14 @@ background-size: cover;" id="background">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/main.css">
-    <title>Postavy</title>
+    <title>DLC</title>
 </head>
 <body style="height: 95vh;">
-    <button class="charbtn" id="charpc"></button>
-    <button class="charbtn" id="charnpc"></button>
-    <button id="backbtn2"></button>
-    <script src="../scripts/characters.js"></script>
+    <button id="dlcbackbtn"></button>
+    <script>
+        document.getElementById("dlcbackbtn").onclick = function(){
+            window.location.href = "/menu.html"
+        }
+    </script>
 </body>
 </html>

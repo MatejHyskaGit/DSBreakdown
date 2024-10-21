@@ -1,12 +1,5 @@
-@font-face {
-    font-family: "BPM";
-    src: url('../fonts/belisa_plumilla.ttf') ;
-}
 *{
     text-align: center;
-}
-p{
-    color: red;
 }
 h1{
     font-size: 60px;
@@ -38,8 +31,6 @@ button {
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: red;
-    opacity: 50%;
     width: 10%;
     height: 21%;
 }
@@ -47,15 +38,11 @@ button {
     position: absolute;
     left: 14%;
     bottom: 9%;
-    background-color: red;
-    opacity: 50%;
     width: 7.5%;
     height: 17%;
 }
 #nextbtn{
     position: absolute;
-    background-color: green;
-    opacity: 50%;
     right: 13%;
     top: 40%;
     width: 7%;
@@ -63,19 +50,63 @@ button {
 }
 #nextbtn2{
     position: absolute;
-    background-color: green;
-    opacity: 50%;
     left: 13%;
     top: 40%;
     width: 7%;
     height: 23%;
 }
 .charbtn{
-    background-color: red;
-    opacity: 50%;
     width: 7.5%;
     height: 22%;
     margin-top: 27%;
     margin-right: 6%;
     margin-left: 1%;
+}
+#charbtnnext{
+    width: 7.5%;
+    height: 20%;
+    position: absolute;
+    top: 40.5%;
+    left: 1%;
+}
+#charbtnnext2{
+    width: 7.5%;
+    height: 20%;
+    position: absolute;
+    top: 41.5%;
+    right: 0%;
+}
+.menu-btn{
+    margin: 0.5%;
+    height: 9%;
+    width: 12.5%;
+    transform: translateY(440%);
+}
+#designnext{
+    position: absolute;
+    top: 41.5%;
+    right: 13%;
+    width: 7.5%;
+    height: 20%;
+}
+#backbtn2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 6.5%;
+    height: 10.5%;
+}
+#dlcbackbtn{
+    position: absolute;
+    left: 5.5%;
+    bottom: 8%;
+    width: 10%;
+    height: 20%;
+}
+#dlcnextbtn{
+    position: absolute;
+    right: 5.5%;
+    bottom: 8%;
+    width: 10%;
+    height: 17%;
 }
